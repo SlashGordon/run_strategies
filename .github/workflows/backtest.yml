@@ -1,0 +1,53 @@
+name: Backtest Workflow (Weekdays)
+
+# Schedule the workflow to run every Monday to Friday at 10:00 AM UTC
+on:
+  workflow_dispatch: # Allows manual triggering of the workflow
+  schedule:
+    - cron: '0 8 * * 1-5'  # Runs at 10:00 AM UTC on weekdays (Monday to Friday)
+
+jobs:
+  run-backtest:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 3: Cache Python dependencies
+      - name: Cache pip dependencies
+        uses: actions/cache@v3
+        with:
+          # Cache key uses the Python version and hash of requirements.txt
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # Step 4: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Step 5: Run the backtest script
+      - name: Run backtest script
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}  # Use the BOT_TOKEN secret
+          CHAT_ID: ${{ secrets.CHAT_ID }}      # Use the CHAT_ID secret
+        run: |
+          python backtest.py
+          
+      # Step 6: Upload JSON backtest results as artifact
+      - name: Upload backtest results JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-results
+          path: backtest_results.json  # Specify the path to the JSON file

@@ -1,0 +1,3512 @@
+{
+    "RAA.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 10,
+                "para_rsi_enter": 46,
+                "para_rsi_exit": 64
+            },
+            "earnings": 318.2414499999999,
+            "sqn": 5.0309422679943925,
+            "calculation_time": "2024-10-22T09:34:31.979702"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 11,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 40.025040000000075,
+            "sqn": 1.0204415325332945,
+            "calculation_time": "2024-10-22T09:34:31.979745"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": -15,
+                "para_ema_short": 4,
+                "para_uo_short": 10,
+                "para_uo_medium": 21,
+                "para_uo_long": 29
+            },
+            "earnings": 33.16636192687987,
+            "sqn": 0.5198302193502933,
+            "calculation_time": "2024-10-22T09:34:31.979764"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 5,
+                "para_sma_long": 59
+            },
+            "earnings": 31.538289999999996,
+            "sqn": 0.692281381258822,
+            "calculation_time": "2024-10-22T09:34:31.979781"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 32,
+                "para_ema_long": 67
+            },
+            "earnings": 16.320050000000048,
+            "sqn": 0.4992702890654767,
+            "calculation_time": "2024-10-22T09:34:31.979805"
+        }
+    },
+    "RRTL.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 21,
+                "para_rsi_enter": 27,
+                "para_rsi_exit": 70
+            },
+            "earnings": 88.24354892654416,
+            "sqn": 31.528435813987446,
+            "calculation_time": "2024-10-22T09:34:31.979724"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 45,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 34
+            },
+            "earnings": 11.2262180493927,
+            "sqn": 0.26332581449936376,
+            "calculation_time": "2024-10-22T09:34:31.979752"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 21,
+                "para_uo_lower": -30,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 22,
+                "para_uo_long": 35
+            },
+            "earnings": 31.90515759887696,
+            "sqn": 1.8566914447730918,
+            "calculation_time": "2024-10-22T09:34:31.979769"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 21,
+                "para_sma_long": 35
+            },
+            "earnings": 44.2028576593017,
+            "sqn": 1.0391426946270566,
+            "calculation_time": "2024-10-22T09:34:31.979790"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 15,
+                "para_ema_long": 31
+            },
+            "earnings": 27.517364970016406,
+            "sqn": 1.1844785875517134,
+            "calculation_time": "2024-10-22T09:34:31.979810"
+        }
+    },
+    "S24.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 49,
+                "para_rsi_exit": 73
+            },
+            "earnings": 225.86422984996784,
+            "sqn": 3.1018415609546346,
+            "calculation_time": "2024-10-22T09:34:31.979736"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 13,
+                "para_ma_long": 10,
+                "para_rsi_window": 12,
+                "para_rsi_threshold": 37
+            },
+            "earnings": 183.16048066513065,
+            "sqn": 2.0971876791171087,
+            "calculation_time": "2024-10-22T09:34:31.979757"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 51,
+                "para_uo_lower": 40,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 21,
+                "para_uo_long": 48
+            },
+            "earnings": -37.12101200683592,
+            "sqn": -1.5258585650537317,
+            "calculation_time": "2024-10-22T09:34:31.979775"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 6,
+                "para_sma_long": 88
+            },
+            "earnings": 25.199052390212945,
+            "sqn": 0.6188128273946745,
+            "calculation_time": "2024-10-22T09:34:31.979797"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 36,
+                "para_ema_long": 73
+            },
+            "earnings": 22.037362228164657,
+            "sqn": 0.3920948994719437,
+            "calculation_time": "2024-10-22T09:34:31.979813"
+        }
+    },
+    "BOSS.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 24,
+                "para_rsi_exit": 53
+            },
+            "earnings": 36.34057481513972,
+            "sqn": 0.6416151219303594,
+            "calculation_time": "2024-10-22T09:50:38.508132"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 5,
+                "para_ma_long": 22,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 38.90666649841303,
+            "sqn": 0.6867543146056708,
+            "calculation_time": "2024-10-22T09:50:38.508161"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 26,
+                "para_uo_lower": 13,
+                "para_ema_short": 15,
+                "para_uo_short": 13,
+                "para_uo_medium": 20,
+                "para_uo_long": 31
+            },
+            "earnings": 33.830025175247194,
+            "sqn": 0.8002329385330695,
+            "calculation_time": "2024-10-22T09:50:38.508172"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 11,
+                "para_sma_long": 49
+            },
+            "earnings": 5.247337375106854,
+            "sqn": 0.09351639643310891,
+            "calculation_time": "2024-10-22T09:50:38.508181"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 14,
+                "para_ema_long": 38
+            },
+            "earnings": -1.2965051746368226,
+            "sqn": -0.029924231554262215,
+            "calculation_time": "2024-10-22T09:50:38.508192"
+        }
+    },
+    "DUE.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 24,
+                "para_rsi_enter": 34,
+                "para_rsi_exit": 54
+            },
+            "earnings": 54.13461264022826,
+            "sqn": 1.472818336534738,
+            "calculation_time": "2024-10-22T09:49:16.630693"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 8,
+                "para_ma_long": 46,
+                "para_rsi_window": 7,
+                "para_rsi_threshold": 59
+            },
+            "earnings": 72.54595544418333,
+            "sqn": 1.3203781940459047,
+            "calculation_time": "2024-10-22T09:49:16.630711"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 57,
+                "para_uo_lower": -1,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 18,
+                "para_uo_long": 28
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:49:16.630725"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 27,
+                "para_sma_long": 39
+            },
+            "earnings": -19.135185935020445,
+            "sqn": -0.24927536457774996,
+            "calculation_time": "2024-10-22T09:49:16.630734"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 134
+            },
+            "earnings": 11.301070367126485,
+            "sqn": 0.31662170810420853,
+            "calculation_time": "2024-10-22T09:49:16.630744"
+        }
+    },
+    "A1A.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 46,
+                "para_rsi_exit": 80
+            },
+            "earnings": 89.17856364225383,
+            "sqn": 2.985515013880294,
+            "calculation_time": "2024-10-22T09:49:16.630701"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 17,
+                "para_ma_long": 23,
+                "para_rsi_window": 8,
+                "para_rsi_threshold": 59
+            },
+            "earnings": -34.405355322742395,
+            "sqn": -1.298755619924704,
+            "calculation_time": "2024-10-22T09:49:16.630715"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 59,
+                "para_uo_lower": 45,
+                "para_ema_short": 4,
+                "para_uo_short": 17,
+                "para_uo_medium": 21,
+                "para_uo_long": 67
+            },
+            "earnings": 7.472436665725708,
+            "sqn": 2.374407604802065,
+            "calculation_time": "2024-10-22T09:49:16.630727"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 6,
+                "para_sma_long": 97
+            },
+            "earnings": 86.39931978736874,
+            "sqn": 2.8095675392219155,
+            "calculation_time": "2024-10-22T09:49:16.630736"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 133
+            },
+            "earnings": 110.11916731361391,
+            "sqn": 2.8906681219764536,
+            "calculation_time": "2024-10-22T09:49:16.630747"
+        }
+    },
+    "LEG.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 27,
+                "para_rsi_exit": 82
+            },
+            "earnings": 100.5991767795563,
+            "sqn": 2.011042293054458,
+            "calculation_time": "2024-10-22T09:50:35.130987"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 4,
+                "para_ma_long": 11,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 45
+            },
+            "earnings": 67.40171038932807,
+            "sqn": 0.9357130980833215,
+            "calculation_time": "2024-10-22T09:50:35.131010"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 27,
+                "para_uo_lower": 16,
+                "para_ema_short": 4,
+                "para_uo_short": 12,
+                "para_uo_medium": 16,
+                "para_uo_long": 40
+            },
+            "earnings": -22.129111468811033,
+            "sqn": -0.689048204314457,
+            "calculation_time": "2024-10-22T09:50:35.131022"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 28,
+                "para_sma_long": 72
+            },
+            "earnings": 88.9360789218903,
+            "sqn": 1.477302066245535,
+            "calculation_time": "2024-10-22T09:50:35.131034"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 46
+            },
+            "earnings": 36.37582567237847,
+            "sqn": 0.6415009652720188,
+            "calculation_time": "2024-10-22T09:50:35.131045"
+        }
+    },
+    "FRE.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 47,
+                "para_rsi_exit": 86
+            },
+            "earnings": 27.299475524520854,
+            "sqn": 0.8699328418858187,
+            "calculation_time": "2024-10-22T09:49:12.311304"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 31,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 56
+            },
+            "earnings": 60.54921742507929,
+            "sqn": 1.833167049170299,
+            "calculation_time": "2024-10-22T09:49:12.311318"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -8,
+                "para_ema_short": 7,
+                "para_uo_short": 13,
+                "para_uo_medium": 17,
+                "para_uo_long": 28
+            },
+            "earnings": -27.269093984947183,
+            "sqn": -1.2837029391744004,
+            "calculation_time": "2024-10-22T09:49:12.311330"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 10,
+                "para_sma_long": 73
+            },
+            "earnings": 29.85484915870666,
+            "sqn": 0.646184706743862,
+            "calculation_time": "2024-10-22T09:49:12.311338"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 35,
+                "para_ema_long": 83
+            },
+            "earnings": 85.26613572826383,
+            "sqn": 1.3892680938728506,
+            "calculation_time": "2024-10-22T09:49:12.311346"
+        }
+    },
+    "FPE3.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 18,
+                "para_rsi_enter": 49,
+                "para_rsi_exit": 83
+            },
+            "earnings": 70.040456357193,
+            "sqn": 2.5082707598206384,
+            "calculation_time": "2024-10-22T09:48:00.159309"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 11,
+                "para_ma_long": 10,
+                "para_rsi_window": 7,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 47.61079947910306,
+            "sqn": 1.0427640664945135,
+            "calculation_time": "2024-10-22T09:48:00.159323"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 54,
+                "para_uo_lower": -11,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 20,
+                "para_uo_long": 34
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:48:00.159333"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 27,
+                "para_sma_long": 38
+            },
+            "earnings": 26.650223929328874,
+            "sqn": 0.9946092316481097,
+            "calculation_time": "2024-10-22T09:48:00.159346"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 142
+            },
+            "earnings": 17.13862638923649,
+            "sqn": 0.8457282375636751,
+            "calculation_time": "2024-10-22T09:48:00.159355"
+        }
+    },
+    "G1A.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 12,
+                "para_rsi_exit": 89
+            },
+            "earnings": 127.57963845848079,
+            "sqn": 3.4960904674448128,
+            "calculation_time": "2024-10-22T09:48:00.159313"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 8,
+                "para_ma_long": 13,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 49
+            },
+            "earnings": 24.081969839935248,
+            "sqn": 0.6090582584027592,
+            "calculation_time": "2024-10-22T09:48:00.159327"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 28,
+                "para_uo_lower": 17,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 18,
+                "para_uo_long": 41
+            },
+            "earnings": 36.462724428939836,
+            "sqn": 1.2290694468048948,
+            "calculation_time": "2024-10-22T09:48:00.159336"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 19,
+                "para_sma_long": 30
+            },
+            "earnings": 32.53419299751282,
+            "sqn": 0.8954207933717575,
+            "calculation_time": "2024-10-22T09:48:00.159348"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 145
+            },
+            "earnings": -13.676283127899186,
+            "sqn": -0.4516757695191686,
+            "calculation_time": "2024-10-22T09:48:00.159357"
+        }
+    },
+    "GXI.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 43,
+                "para_rsi_exit": 84
+            },
+            "earnings": 60.136961092529305,
+            "sqn": 0.7482452672118093,
+            "calculation_time": "2024-10-22T09:48:00.159317"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 13,
+                "para_ma_long": 12,
+                "para_rsi_window": 23,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 111.06266277023306,
+            "sqn": 1.51276149964033,
+            "calculation_time": "2024-10-22T09:48:00.159329"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 30,
+                "para_uo_lower": -24,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 19,
+                "para_uo_long": 40
+            },
+            "earnings": 133.27045697814938,
+            "sqn": 2.3399407768934117,
+            "calculation_time": "2024-10-22T09:48:00.159340"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 5,
+                "para_sma_long": 97
+            },
+            "earnings": 53.54014682510376,
+            "sqn": 1.3678552813890026,
+            "calculation_time": "2024-10-22T09:48:00.159350"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 43,
+                "para_ema_long": 60
+            },
+            "earnings": 68.40295222305296,
+            "sqn": 3.2223825446843732,
+            "calculation_time": "2024-10-22T09:48:00.159359"
+        }
+    },
+    "DHER.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 14,
+                "para_rsi_exit": 80
+            },
+            "earnings": 7.819325698165904,
+            "sqn": 2.622759088812321,
+            "calculation_time": "2024-10-22T09:34:25.055435"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 15,
+                "para_ma_long": 20,
+                "para_rsi_window": 8,
+                "para_rsi_threshold": 69
+            },
+            "earnings": 0.6735963434600671,
+            "sqn": 0.09525317807035212,
+            "calculation_time": "2024-10-22T09:34:25.055460"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 27,
+                "para_uo_lower": 12,
+                "para_ema_short": 4,
+                "para_uo_short": 13,
+                "para_uo_medium": 17,
+                "para_uo_long": 29
+            },
+            "earnings": 96.512605519867,
+            "sqn": 1.0200006951511014,
+            "calculation_time": "2024-10-22T09:34:25.055469"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 28,
+                "para_sma_long": 89
+            },
+            "earnings": 46.86810946262365,
+            "sqn": 0.3752098502625241,
+            "calculation_time": "2024-10-22T09:34:25.055476"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 48,
+                "para_ema_long": 109
+            },
+            "earnings": 142.6046662097168,
+            "sqn": 0.8945789036255519,
+            "calculation_time": "2024-10-22T09:34:25.055483"
+        }
+    },
+    "FIE.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 16,
+                "para_rsi_exit": 86
+            },
+            "earnings": 43.71236883895872,
+            "sqn": 2.6350226390268263,
+            "calculation_time": "2024-10-22T09:34:25.055452"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 9,
+                "para_ma_long": 10,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 49
+            },
+            "earnings": 148.08901870349865,
+            "sqn": 1.838132301358798,
+            "calculation_time": "2024-10-22T09:34:25.055463"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 37,
+                "para_uo_lower": 15,
+                "para_ema_short": 4,
+                "para_uo_short": 9,
+                "para_uo_medium": 20,
+                "para_uo_long": 29
+            },
+            "earnings": -17.26419504318239,
+            "sqn": -0.5548018549126091,
+            "calculation_time": "2024-10-22T09:34:25.055472"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 5,
+                "para_sma_long": 90
+            },
+            "earnings": 20.231994076843275,
+            "sqn": 0.5742194117081173,
+            "calculation_time": "2024-10-22T09:34:25.055478"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 34,
+                "para_ema_long": 75
+            },
+            "earnings": 29.214358247222883,
+            "sqn": 1.0671638935498724,
+            "calculation_time": "2024-10-22T09:34:25.055485"
+        }
+    },
+    "FRA.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 8,
+                "para_rsi_enter": 24,
+                "para_rsi_exit": 77
+            },
+            "earnings": 158.88156264183039,
+            "sqn": 3.758513452712908,
+            "calculation_time": "2024-10-22T09:48:08.067786"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 14,
+                "para_ma_long": 16,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 27
+            },
+            "earnings": -4.749296592407245,
+            "sqn": -0.0859242613115962,
+            "calculation_time": "2024-10-22T09:48:08.067800"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 37,
+                "para_uo_lower": 26,
+                "para_ema_short": 3,
+                "para_uo_short": 13,
+                "para_uo_medium": 18,
+                "para_uo_long": 36
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:48:08.067811"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 9,
+                "para_sma_long": 94
+            },
+            "earnings": 118.08390598281855,
+            "sqn": 4.4439466012573305,
+            "calculation_time": "2024-10-22T09:48:08.067822"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 18,
+                "para_ema_long": 69
+            },
+            "earnings": 184.171278609848,
+            "sqn": 8.397946578344092,
+            "calculation_time": "2024-10-22T09:48:08.067830"
+        }
+    },
+    "JEN.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 43,
+                "para_rsi_exit": 85
+            },
+            "earnings": 41.628438495712345,
+            "sqn": 0.6423118017122755,
+            "calculation_time": "2024-10-22T09:50:38.508145"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 23,
+                "para_rsi_window": 19,
+                "para_rsi_threshold": 60
+            },
+            "earnings": 64.34527525856018,
+            "sqn": 3.2259240850874256,
+            "calculation_time": "2024-10-22T09:50:38.508163"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 40,
+                "para_uo_lower": -1,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 16,
+                "para_uo_long": 28
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:50:38.508174"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 25,
+                "para_sma_long": 99
+            },
+            "earnings": 88.83452190906522,
+            "sqn": 2.4331778081363966,
+            "calculation_time": "2024-10-22T09:50:38.508184"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 40,
+                "para_ema_long": 149
+            },
+            "earnings": 134.9605771193314,
+            "sqn": 4.65471183635019,
+            "calculation_time": "2024-10-22T09:50:38.508194"
+        }
+    },
+    "JUN3.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 16,
+                "para_rsi_exit": 85
+            },
+            "earnings": 165.5077257790375,
+            "sqn": 5.872048228016632,
+            "calculation_time": "2024-10-22T09:50:38.508149"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 4,
+                "para_ma_long": 40,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 43.062225435256984,
+            "sqn": 0.7833654956645817,
+            "calculation_time": "2024-10-22T09:50:38.508165"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 38,
+                "para_uo_lower": 26,
+                "para_ema_short": 5,
+                "para_uo_short": 7,
+                "para_uo_medium": 34,
+                "para_uo_long": 79
+            },
+            "earnings": 22.456760639114382,
+            "sqn": 0.6955415195466551,
+            "calculation_time": "2024-10-22T09:50:38.508176"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 28,
+                "para_sma_long": 95
+            },
+            "earnings": 87.64092056156154,
+            "sqn": 1.2708586642094817,
+            "calculation_time": "2024-10-22T09:50:38.508187"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 22,
+                "para_ema_long": 126
+            },
+            "earnings": 24.292464250144985,
+            "sqn": 0.5740666241524011,
+            "calculation_time": "2024-10-22T09:50:38.508196"
+        }
+    },
+    "SDF.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 20,
+                "para_rsi_exit": 51
+            },
+            "earnings": 260.97153113748567,
+            "sqn": 3.450276122687689,
+            "calculation_time": "2024-10-22T09:50:38.508153"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 13,
+                "para_ma_long": 15,
+                "para_rsi_window": 14,
+                "para_rsi_threshold": 42
+            },
+            "earnings": 74.57699074748983,
+            "sqn": 0.9188384994654891,
+            "calculation_time": "2024-10-22T09:50:38.508168"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 23,
+                "para_uo_lower": 12,
+                "para_ema_short": 13,
+                "para_uo_short": 12,
+                "para_uo_medium": 19,
+                "para_uo_long": 28
+            },
+            "earnings": 40.06420480350494,
+            "sqn": 1.1196993370481443,
+            "calculation_time": "2024-10-22T09:50:38.508179"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 29,
+                "para_sma_long": 80
+            },
+            "earnings": 37.16923927753447,
+            "sqn": 0.824063421494945,
+            "calculation_time": "2024-10-22T09:50:38.508189"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 24,
+                "para_ema_long": 33
+            },
+            "earnings": 30.70439450325017,
+            "sqn": 0.5108674904858607,
+            "calculation_time": "2024-10-22T09:50:38.508198"
+        }
+    },
+    "HEN.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 32,
+                "para_rsi_exit": 79
+            },
+            "earnings": 106.42972162918085,
+            "sqn": 4.451979371187972,
+            "calculation_time": "2024-10-22T09:48:03.127341"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 9,
+                "para_ma_long": 43,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 2.4338001576995705,
+            "sqn": 0.1556215501823026,
+            "calculation_time": "2024-10-22T09:48:03.127366"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 38,
+                "para_uo_lower": 27,
+                "para_ema_short": 3,
+                "para_uo_short": 10,
+                "para_uo_medium": 14,
+                "para_uo_long": 39
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:48:03.127376"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 19,
+                "para_sma_long": 32
+            },
+            "earnings": 18.666211399002115,
+            "sqn": 1.0919685231892897,
+            "calculation_time": "2024-10-22T09:48:03.127386"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 24,
+                "para_ema_long": 52
+            },
+            "earnings": 18.919823814239535,
+            "sqn": 1.165091844653621,
+            "calculation_time": "2024-10-22T09:48:03.127395"
+        }
+    },
+    "IFX.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 13,
+                "para_rsi_enter": 36,
+                "para_rsi_exit": 71
+            },
+            "earnings": 274.81640691776283,
+            "sqn": 2.9716129019045656,
+            "calculation_time": "2024-10-22T09:48:03.127353"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 11,
+                "para_ma_long": 14,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 77
+            },
+            "earnings": -5.6525086987304896,
+            "sqn": -0.10945367242830077,
+            "calculation_time": "2024-10-22T09:48:03.127368"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 23,
+                "para_uo_lower": 5,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 17,
+                "para_uo_long": 44
+            },
+            "earnings": -26.614185633697495,
+            "sqn": -0.9349927818565795,
+            "calculation_time": "2024-10-22T09:48:03.127380"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 23,
+                "para_sma_long": 36
+            },
+            "earnings": 146.42508828159328,
+            "sqn": 1.8521284783616716,
+            "calculation_time": "2024-10-22T09:48:03.127389"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 138
+            },
+            "earnings": 77.25219307914726,
+            "sqn": 2.708242338774687,
+            "calculation_time": "2024-10-22T09:48:03.127397"
+        }
+    },
+    "MBG.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 17,
+                "para_rsi_exit": 74
+            },
+            "earnings": 40.017862178955056,
+            "sqn": 2.3692815860158922,
+            "calculation_time": "2024-10-22T09:48:03.127358"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 15,
+                "para_ma_long": 18,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 49
+            },
+            "earnings": 79.45429839134205,
+            "sqn": 1.5736155146701816,
+            "calculation_time": "2024-10-22T09:48:03.127371"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -17,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 18,
+                "para_uo_long": 36
+            },
+            "earnings": 52.493554465408344,
+            "sqn": 5.156753205143221,
+            "calculation_time": "2024-10-22T09:48:03.127382"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 24,
+                "para_sma_long": 35
+            },
+            "earnings": -12.150083429336538,
+            "sqn": -0.3676821990813787,
+            "calculation_time": "2024-10-22T09:48:03.127391"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 14,
+                "para_ema_long": 59
+            },
+            "earnings": 13.984052751617437,
+            "sqn": 0.4027447496088022,
+            "calculation_time": "2024-10-22T09:48:03.127399"
+        }
+    },
+    "MRK.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 22,
+                "para_rsi_exit": 60
+            },
+            "earnings": 114.4776848095703,
+            "sqn": 6.55940204052182,
+            "calculation_time": "2024-10-22T09:48:03.127363"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 7,
+                "para_ma_long": 16,
+                "para_rsi_window": 19,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 107.3917269747925,
+            "sqn": 2.654387230621031,
+            "calculation_time": "2024-10-22T09:48:03.127374"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": -17,
+                "para_ema_short": 12,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 38
+            },
+            "earnings": -4.863395401611342,
+            "sqn": -0.4282733037233614,
+            "calculation_time": "2024-10-22T09:48:03.127384"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 28,
+                "para_sma_long": 72
+            },
+            "earnings": 75.46379846618653,
+            "sqn": 3.0131384273851127,
+            "calculation_time": "2024-10-22T09:48:03.127393"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 29,
+                "para_ema_long": 79
+            },
+            "earnings": 78.00341487365728,
+            "sqn": 5.106491984116409,
+            "calculation_time": "2024-10-22T09:48:03.127401"
+        }
+    },
+    "BAYN.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 8,
+                "para_rsi_enter": 11,
+                "para_rsi_exit": 76
+            },
+            "earnings": 14.523340751380928,
+            "sqn": 2.131379864264074,
+            "calculation_time": "2024-10-22T09:47:18.865404"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 16,
+                "para_ma_long": 15,
+                "para_rsi_window": 11,
+                "para_rsi_threshold": 38
+            },
+            "earnings": 177.25495473129283,
+            "sqn": 2.1392968735362863,
+            "calculation_time": "2024-10-22T09:47:18.865426"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 31,
+                "para_uo_lower": 17,
+                "para_ema_short": 3,
+                "para_uo_short": 13,
+                "para_uo_medium": 18,
+                "para_uo_long": 29
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:47:18.865436"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 8,
+                "para_sma_long": 98
+            },
+            "earnings": -2.360940362434412,
+            "sqn": -0.030209550482936734,
+            "calculation_time": "2024-10-22T09:47:18.865445"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 7,
+                "para_ema_long": 54
+            },
+            "earnings": 20.561975737762495,
+            "sqn": 0.3134597880964553,
+            "calculation_time": "2024-10-22T09:47:18.865454"
+        }
+    },
+    "BMW.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 13,
+                "para_rsi_enter": 24,
+                "para_rsi_exit": 56
+            },
+            "earnings": 85.64645463806151,
+            "sqn": 4.597817255975464,
+            "calculation_time": "2024-10-22T09:47:18.865417"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 6,
+                "para_ma_long": 34,
+                "para_rsi_window": 18,
+                "para_rsi_threshold": 51
+            },
+            "earnings": 51.12835126129146,
+            "sqn": 1.2269331943055641,
+            "calculation_time": "2024-10-22T09:47:18.865429"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 24,
+                "para_uo_lower": -13,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 43
+            },
+            "earnings": 25.043300655059813,
+            "sqn": 1.0900222779610778,
+            "calculation_time": "2024-10-22T09:47:18.865439"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 20,
+                "para_sma_long": 32
+            },
+            "earnings": 11.31374294067382,
+            "sqn": 0.29834881856977225,
+            "calculation_time": "2024-10-22T09:47:18.865448"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 43,
+                "para_ema_long": 80
+            },
+            "earnings": 2.4856137092590327,
+            "sqn": 0.07791865982549875,
+            "calculation_time": "2024-10-22T09:47:18.865456"
+        }
+    },
+    "BEI.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 15,
+                "para_rsi_enter": 49,
+                "para_rsi_exit": 64
+            },
+            "earnings": 45.933614311981216,
+            "sqn": 1.8779777780364382,
+            "calculation_time": "2024-10-22T09:47:18.865421"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 6,
+                "para_ma_long": 27,
+                "para_rsi_window": 12,
+                "para_rsi_threshold": 60
+            },
+            "earnings": 23.27039088027954,
+            "sqn": 1.5157756060817738,
+            "calculation_time": "2024-10-22T09:47:18.865432"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 28,
+                "para_uo_lower": -2,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 52
+            },
+            "earnings": -14.663009966430673,
+            "sqn": -1.7720997499664217,
+            "calculation_time": "2024-10-22T09:47:18.865441"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 18,
+                "para_sma_long": 97
+            },
+            "earnings": -0.09052016082763657,
+            "sqn": -0.004023510571768177,
+            "calculation_time": "2024-10-22T09:47:18.865450"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 11
+            },
+            "earnings": 18.564906179351873,
+            "sqn": 0.5806186900741842,
+            "calculation_time": "2024-10-22T09:47:18.865458"
+        }
+    },
+    "BNR.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 11,
+                "para_rsi_enter": 26,
+                "para_rsi_exit": 76
+            },
+            "earnings": 114.25603695121764,
+            "sqn": 2.238920049714828,
+            "calculation_time": "2024-10-22T09:47:18.865424"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 16,
+                "para_ma_long": 26,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 75
+            },
+            "earnings": -11.371813696212776,
+            "sqn": -0.47458665184889787,
+            "calculation_time": "2024-10-22T09:47:18.865434"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -15,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 16,
+                "para_uo_long": 53
+            },
+            "earnings": -2.2263793119811996,
+            "sqn": -0.21319074641590757,
+            "calculation_time": "2024-10-22T09:47:18.865443"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 7,
+                "para_sma_long": 43
+            },
+            "earnings": 80.61535682136545,
+            "sqn": 2.3585854337401013,
+            "calculation_time": "2024-10-22T09:47:18.865452"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 11,
+                "para_ema_long": 28
+            },
+            "earnings": 52.39940536186214,
+            "sqn": 1.9646906519123954,
+            "calculation_time": "2024-10-22T09:47:18.865460"
+        }
+    },
+    "WSU.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 6,
+                "para_rsi_enter": 11,
+                "para_rsi_exit": 63
+            },
+            "earnings": 59.87740399681092,
+            "sqn": 1.7460264593612058,
+            "calculation_time": "2024-10-22T09:02:53.495615"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 14,
+                "para_ma_long": 10,
+                "para_rsi_window": 24,
+                "para_rsi_threshold": 47
+            },
+            "earnings": 18.127997497177166,
+            "sqn": 0.529111566005723,
+            "calculation_time": "2024-10-22T09:02:53.495641"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 58,
+                "para_uo_lower": 25,
+                "para_ema_short": 3,
+                "para_uo_short": 9,
+                "para_uo_medium": 18,
+                "para_uo_long": 34
+            },
+            "earnings": -23.25424488018036,
+            "sqn": -1.5445334144218223,
+            "calculation_time": "2024-10-22T09:02:53.495655"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 11,
+                "para_sma_long": 34
+            },
+            "earnings": 37.66026055942538,
+            "sqn": 1.0261894421479518,
+            "calculation_time": "2024-10-22T09:02:53.495662"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 10
+            },
+            "earnings": 56.893436113471964,
+            "sqn": 1.2085607947541557,
+            "calculation_time": "2024-10-22T09:02:53.495669"
+        }
+    },
+    "HLAG.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 14,
+                "para_rsi_enter": 20,
+                "para_rsi_exit": 81
+            },
+            "earnings": 281.09653956298826,
+            "sqn": 4.27743671517608,
+            "calculation_time": "2024-10-22T09:18:18.434891"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 16,
+                "para_ma_long": 12,
+                "para_rsi_window": 10,
+                "para_rsi_threshold": 60
+            },
+            "earnings": 63.09378680480957,
+            "sqn": 2.3478169631112076,
+            "calculation_time": "2024-10-22T09:18:18.434915"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 23,
+                "para_uo_lower": -7,
+                "para_ema_short": 5,
+                "para_uo_short": 9,
+                "para_uo_medium": 15,
+                "para_uo_long": 43
+            },
+            "earnings": -19.593646622009263,
+            "sqn": -0.4830635712632233,
+            "calculation_time": "2024-10-22T09:18:18.434925"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 27,
+                "para_sma_long": 64
+            },
+            "earnings": 80.81585859497075,
+            "sqn": 1.8839774324718048,
+            "calculation_time": "2024-10-22T09:18:18.434932"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 4,
+                "para_ema_long": 125
+            },
+            "earnings": 106.98846715301515,
+            "sqn": 2.59960391131249,
+            "calculation_time": "2024-10-22T09:18:18.434940"
+        }
+    },
+    "HYQ.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 41,
+                "para_rsi_exit": 78
+            },
+            "earnings": 323.81457888061516,
+            "sqn": 2.8592449402135003,
+            "calculation_time": "2024-10-22T09:18:18.434907"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 2,
+                "para_ma_long": 37,
+                "para_rsi_window": 16,
+                "para_rsi_threshold": 47
+            },
+            "earnings": 36.6721946835328,
+            "sqn": 0.40649367141492165,
+            "calculation_time": "2024-10-22T09:18:18.434921"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 51,
+                "para_uo_lower": -2,
+                "para_ema_short": 3,
+                "para_uo_short": 12,
+                "para_uo_medium": 20,
+                "para_uo_long": 41
+            },
+            "earnings": 53.00691166839601,
+            "sqn": 0.9134959729912184,
+            "calculation_time": "2024-10-22T09:18:18.434929"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 27,
+                "para_sma_long": 38
+            },
+            "earnings": -100.0,
+            "sqn": -0.46274270129218237,
+            "calculation_time": "2024-10-22T09:18:18.434936"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 130
+            },
+            "earnings": -100.0,
+            "sqn": -0.46862001731107855,
+            "calculation_time": "2024-10-22T09:18:18.434943"
+        }
+    },
+    "KGX.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 6,
+                "para_rsi_enter": 13,
+                "para_rsi_exit": 77
+            },
+            "earnings": 114.93674136821748,
+            "sqn": 1.5258322432544997,
+            "calculation_time": "2024-10-22T09:48:16.100355"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 4,
+                "para_ma_long": 43,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 54
+            },
+            "earnings": 120.69478206459043,
+            "sqn": 1.3903987501440698,
+            "calculation_time": "2024-10-22T09:48:16.100378"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 36,
+                "para_uo_lower": -30,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 14,
+                "para_uo_long": 30
+            },
+            "earnings": 47.171959162673936,
+            "sqn": 10.094344179206047,
+            "calculation_time": "2024-10-22T09:48:16.100388"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 29,
+                "para_sma_long": 91
+            },
+            "earnings": 35.952536260757476,
+            "sqn": 0.5863558187079083,
+            "calculation_time": "2024-10-22T09:48:16.100398"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 14,
+                "para_ema_long": 63
+            },
+            "earnings": 15.75100111637119,
+            "sqn": 0.21395070659610368,
+            "calculation_time": "2024-10-22T09:48:16.100408"
+        }
+    },
+    "KBX.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 31,
+                "para_rsi_exit": 71
+            },
+            "earnings": 106.95518441329955,
+            "sqn": 1.8390720538305816,
+            "calculation_time": "2024-10-22T09:48:16.100367"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 12,
+                "para_ma_long": 10,
+                "para_rsi_window": 18,
+                "para_rsi_threshold": 37
+            },
+            "earnings": 96.87177204521188,
+            "sqn": 1.7530440698871774,
+            "calculation_time": "2024-10-22T09:48:16.100382"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 27,
+                "para_uo_lower": 11,
+                "para_ema_short": 4,
+                "para_uo_short": 9,
+                "para_uo_medium": 15,
+                "para_uo_long": 74
+            },
+            "earnings": 52.90989873870849,
+            "sqn": 1.179378551412981,
+            "calculation_time": "2024-10-22T09:48:16.100390"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 22,
+                "para_sma_long": 81
+            },
+            "earnings": -22.480307065048237,
+            "sqn": -0.8013525846479967,
+            "calculation_time": "2024-10-22T09:48:16.100401"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 14
+            },
+            "earnings": 37.99101848144528,
+            "sqn": 0.7592912112957318,
+            "calculation_time": "2024-10-22T09:48:16.100410"
+        }
+    },
+    "KRN.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 8,
+                "para_rsi_enter": 34,
+                "para_rsi_exit": 83
+            },
+            "earnings": 224.39792422439572,
+            "sqn": 4.2473442059895135,
+            "calculation_time": "2024-10-22T09:48:16.100372"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 17,
+                "para_ma_long": 21,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 21.807670540313666,
+            "sqn": 0.5101698604165104,
+            "calculation_time": "2024-10-22T09:48:16.100384"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 36,
+                "para_uo_lower": 25,
+                "para_ema_short": 18,
+                "para_uo_short": 8,
+                "para_uo_medium": 34,
+                "para_uo_long": 52
+            },
+            "earnings": 41.739625657806414,
+            "sqn": 1.219771705585653,
+            "calculation_time": "2024-10-22T09:48:16.100393"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 23,
+                "para_sma_long": 78
+            },
+            "earnings": 41.69922936798099,
+            "sqn": 1.2572017415076313,
+            "calculation_time": "2024-10-22T09:48:16.100403"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 26,
+                "para_ema_long": 45
+            },
+            "earnings": 69.89193762008668,
+            "sqn": 1.8390248049048912,
+            "calculation_time": "2024-10-22T09:48:16.100412"
+        }
+    },
+    "LXS.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 11,
+                "para_rsi_enter": 16,
+                "para_rsi_exit": 50
+            },
+            "earnings": 44.00219163497924,
+            "sqn": 1.7231352506941615,
+            "calculation_time": "2024-10-22T09:48:16.100376"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 7,
+                "para_ma_long": 12,
+                "para_rsi_window": 11,
+                "para_rsi_threshold": 45
+            },
+            "earnings": 210.18654297790525,
+            "sqn": 2.195859842397422,
+            "calculation_time": "2024-10-22T09:48:16.100386"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": -30,
+                "para_ema_short": 9,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 37
+            },
+            "earnings": 18.180290179443364,
+            "sqn": 0.8210560028522582,
+            "calculation_time": "2024-10-22T09:48:16.100395"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 8,
+                "para_sma_long": 48
+            },
+            "earnings": 121.54132209522245,
+            "sqn": 1.1366185619552638,
+            "calculation_time": "2024-10-22T09:48:16.100405"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 19
+            },
+            "earnings": -24.319598521614225,
+            "sqn": -0.3569601686261429,
+            "calculation_time": "2024-10-22T09:48:16.100414"
+        }
+    },
+    "SAX.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 36,
+                "para_rsi_exit": 87
+            },
+            "earnings": 5.6278351102447415,
+            "sqn": 0.4117400834834234,
+            "calculation_time": "2024-10-22T09:36:09.522353"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 7,
+                "para_ma_long": 19,
+                "para_rsi_window": 21,
+                "para_rsi_threshold": 52
+            },
+            "earnings": 31.778047144012472,
+            "sqn": 0.75609967325692,
+            "calculation_time": "2024-10-22T09:36:09.522374"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 57,
+                "para_uo_lower": 44,
+                "para_ema_short": 3,
+                "para_uo_short": 10,
+                "para_uo_medium": 33,
+                "para_uo_long": 40
+            },
+            "earnings": 13.275808695220947,
+            "sqn": 4.017334308025155,
+            "calculation_time": "2024-10-22T09:36:09.522385"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 24,
+                "para_sma_long": 35
+            },
+            "earnings": 8.557788897781375,
+            "sqn": 0.18033931332790512,
+            "calculation_time": "2024-10-22T09:36:09.522393"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 22,
+                "para_ema_long": 111
+            },
+            "earnings": -13.806947130432127,
+            "sqn": -0.3765779266731738,
+            "calculation_time": "2024-10-22T09:36:09.522402"
+        }
+    },
+    "BFSA.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 10,
+                "para_rsi_exit": 80
+            },
+            "earnings": 110.21184203998568,
+            "sqn": 2.115883591391956,
+            "calculation_time": "2024-10-22T09:36:09.522366"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 9,
+                "para_ma_long": 15,
+                "para_rsi_window": 28,
+                "para_rsi_threshold": 53
+            },
+            "earnings": 120.47976519569399,
+            "sqn": 2.3232635917389883,
+            "calculation_time": "2024-10-22T09:36:09.522378"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 27,
+                "para_uo_lower": 6,
+                "para_ema_short": 5,
+                "para_uo_short": 12,
+                "para_uo_medium": 18,
+                "para_uo_long": 31
+            },
+            "earnings": 163.77051418441772,
+            "sqn": 3.8404640623642825,
+            "calculation_time": "2024-10-22T09:36:09.522387"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 24,
+                "para_sma_long": 68
+            },
+            "earnings": 36.867813271064755,
+            "sqn": 0.7119353103413762,
+            "calculation_time": "2024-10-22T09:36:09.522397"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 23,
+                "para_ema_long": 138
+            },
+            "earnings": 42.28035566417699,
+            "sqn": 0.6333667678911412,
+            "calculation_time": "2024-10-22T09:36:09.522404"
+        }
+    },
+    "GBF.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 36,
+                "para_rsi_exit": 85
+            },
+            "earnings": -1.6917199070739661,
+            "sqn": -0.04711257285698162,
+            "calculation_time": "2024-10-22T09:36:09.522371"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 18,
+                "para_ma_long": 10,
+                "para_rsi_window": 21,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 23.911100761375437,
+            "sqn": 0.30690452551261316,
+            "calculation_time": "2024-10-22T09:36:09.522381"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -30,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 18,
+                "para_uo_long": 42
+            },
+            "earnings": 66.61405645042417,
+            "sqn": 1.3743271931843462,
+            "calculation_time": "2024-10-22T09:36:09.522390"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 8,
+                "para_sma_long": 76
+            },
+            "earnings": -13.87762430610661,
+            "sqn": -0.17324605639100996,
+            "calculation_time": "2024-10-22T09:36:09.522399"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 56
+            },
+            "earnings": 58.62151754684448,
+            "sqn": 0.850710167509891,
+            "calculation_time": "2024-10-22T09:36:09.522406"
+        }
+    },
+    "NEM.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 24,
+                "para_rsi_exit": 83
+            },
+            "earnings": 123.84491033981328,
+            "sqn": 3.052702378113197,
+            "calculation_time": "2024-10-22T09:50:35.130998"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 8,
+                "para_ma_long": 11,
+                "para_rsi_window": 16,
+                "para_rsi_threshold": 49
+            },
+            "earnings": -12.854939442214947,
+            "sqn": -0.21581124396531765,
+            "calculation_time": "2024-10-22T09:50:35.131014"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -15,
+                "para_ema_short": 3,
+                "para_uo_short": 10,
+                "para_uo_medium": 16,
+                "para_uo_long": 35
+            },
+            "earnings": 56.97290389328001,
+            "sqn": 1.0926302882428134,
+            "calculation_time": "2024-10-22T09:50:35.131025"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 5,
+                "para_sma_long": 31
+            },
+            "earnings": -12.362685572814936,
+            "sqn": -0.19191950817448622,
+            "calculation_time": "2024-10-22T09:50:35.131037"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 4,
+                "para_ema_long": 14
+            },
+            "earnings": 206.51826037055966,
+            "sqn": 1.7913548690034244,
+            "calculation_time": "2024-10-22T09:50:35.131047"
+        }
+    },
+    "NDX1.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 17,
+                "para_rsi_exit": 84
+            },
+            "earnings": 99.42380034851071,
+            "sqn": 2.2505282493009453,
+            "calculation_time": "2024-10-22T09:50:35.131004"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 15,
+                "para_ma_long": 11,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 36
+            },
+            "earnings": 41.200920129776044,
+            "sqn": 0.7256870867749067,
+            "calculation_time": "2024-10-22T09:50:35.131017"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 28,
+                "para_uo_lower": -7,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 30
+            },
+            "earnings": 1.3644655333328228,
+            "sqn": 0.06209163872331517,
+            "calculation_time": "2024-10-22T09:50:35.131029"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 29,
+                "para_sma_long": 96
+            },
+            "earnings": 70.6927208465576,
+            "sqn": 1.1868357556209286,
+            "calculation_time": "2024-10-22T09:50:35.131040"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 23,
+                "para_ema_long": 84
+            },
+            "earnings": 103.88278652458183,
+            "sqn": 3.1218966886557675,
+            "calculation_time": "2024-10-22T09:50:35.131049"
+        }
+    },
+    "PUM.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 20,
+                "para_rsi_enter": 23,
+                "para_rsi_exit": 70
+            },
+            "earnings": 72.16761494636536,
+            "sqn": 26.67725919197167,
+            "calculation_time": "2024-10-22T09:47:32.720911"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 21,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 40
+            },
+            "earnings": 274.9780014140319,
+            "sqn": 2.17236420039107,
+            "calculation_time": "2024-10-22T09:47:32.720923"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": 5,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 24,
+                "para_uo_long": 30
+            },
+            "earnings": 50.078905088424676,
+            "sqn": 1.7296668799797736,
+            "calculation_time": "2024-10-22T09:47:32.720932"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 22,
+                "para_sma_long": 89
+            },
+            "earnings": -14.653314363632198,
+            "sqn": -0.6148300832945344,
+            "calculation_time": "2024-10-22T09:47:32.720942"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 22
+            },
+            "earnings": 85.36957711929328,
+            "sqn": 1.1499231296435184,
+            "calculation_time": "2024-10-22T09:47:32.720949"
+        }
+    },
+    "EVK.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 6,
+                "para_rsi_enter": 13,
+                "para_rsi_exit": 67
+            },
+            "earnings": 16.582227220420844,
+            "sqn": 0.5526340095530703,
+            "calculation_time": "2024-10-22T09:48:08.067765"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 15,
+                "para_ma_long": 14,
+                "para_rsi_window": 8,
+                "para_rsi_threshold": 41
+            },
+            "earnings": 45.18159589153287,
+            "sqn": 0.8863061755244899,
+            "calculation_time": "2024-10-22T09:48:08.067794"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 23,
+                "para_uo_lower": 12,
+                "para_ema_short": 3,
+                "para_uo_short": 10,
+                "para_uo_medium": 15,
+                "para_uo_long": 28
+            },
+            "earnings": -7.747834535064685,
+            "sqn": -0.4835872550347852,
+            "calculation_time": "2024-10-22T09:48:08.067806"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 17,
+                "para_sma_long": 35
+            },
+            "earnings": 103.61255280815121,
+            "sqn": 3.195041062132561,
+            "calculation_time": "2024-10-22T09:48:08.067817"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 13,
+                "para_ema_long": 40
+            },
+            "earnings": 66.41058949462888,
+            "sqn": 2.558545594064675,
+            "calculation_time": "2024-10-22T09:48:08.067826"
+        }
+    },
+    "EVT.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 19,
+                "para_rsi_exit": 68
+            },
+            "earnings": 735.0303021222115,
+            "sqn": 3.4524968015587993,
+            "calculation_time": "2024-10-22T09:48:08.067781"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 6,
+                "para_ma_long": 33,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 10.117945318851488,
+            "sqn": 0.20276192352297318,
+            "calculation_time": "2024-10-22T09:48:08.067798"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 41,
+                "para_uo_lower": 30,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 19,
+                "para_uo_long": 29
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:48:08.067808"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 22,
+                "para_sma_long": 40
+            },
+            "earnings": 477.35511387824994,
+            "sqn": 2.7367555473401772,
+            "calculation_time": "2024-10-22T09:48:08.067820"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 13,
+                "para_ema_long": 23
+            },
+            "earnings": 61.02561853925703,
+            "sqn": 0.5166664808125855,
+            "calculation_time": "2024-10-22T09:48:08.067828"
+        }
+    },
+    "FNTN.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 12,
+                "para_rsi_exit": 87
+            },
+            "earnings": 43.37734783077239,
+            "sqn": 3.7745303549418874,
+            "calculation_time": "2024-10-22T09:48:08.067790"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 2,
+                "para_ma_long": 16,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 72.53042568111418,
+            "sqn": 2.0746720816536706,
+            "calculation_time": "2024-10-22T09:48:08.067802"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 26,
+                "para_uo_lower": -30,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 21,
+                "para_uo_long": 28
+            },
+            "earnings": -16.212776680488584,
+            "sqn": -1.2431662188163526,
+            "calculation_time": "2024-10-22T09:48:08.067815"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 14,
+                "para_sma_long": 97
+            },
+            "earnings": 20.421531492004416,
+            "sqn": 0.8834486445883095,
+            "calculation_time": "2024-10-22T09:48:08.067824"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 13,
+                "para_ema_long": 90
+            },
+            "earnings": 24.574552901916487,
+            "sqn": 1.075309362230732,
+            "calculation_time": "2024-10-22T09:48:08.067832"
+        }
+    },
+    "MTX.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 49,
+                "para_rsi_exit": 77
+            },
+            "earnings": 62.85422519470214,
+            "sqn": 1.5737350216048465,
+            "calculation_time": "2024-10-22T09:47:32.720893"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 6,
+                "para_ma_long": 36,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 65.85284125885006,
+            "sqn": 1.076618834821548,
+            "calculation_time": "2024-10-22T09:47:32.720914"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -9,
+                "para_ema_short": 5,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 45
+            },
+            "earnings": 68.65426885772705,
+            "sqn": 1.2955214452263695,
+            "calculation_time": "2024-10-22T09:47:32.720925"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 17,
+                "para_sma_long": 46
+            },
+            "earnings": -33.133782826232924,
+            "sqn": -0.7903184744384398,
+            "calculation_time": "2024-10-22T09:47:32.720935"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 120
+            },
+            "earnings": -41.286092054443394,
+            "sqn": -0.9269507954988212,
+            "calculation_time": "2024-10-22T09:47:32.720943"
+        }
+    },
+    "MUV2.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 22,
+                "para_rsi_enter": 48,
+                "para_rsi_exit": 77
+            },
+            "earnings": 173.2827369647217,
+            "sqn": 1.3613794549251355,
+            "calculation_time": "2024-10-22T09:47:32.720905"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 2,
+                "para_ma_long": 11,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 72
+            },
+            "earnings": -5.8827071923828225,
+            "sqn": -0.35898830556656053,
+            "calculation_time": "2024-10-22T09:47:32.720917"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -23,
+                "para_ema_short": 5,
+                "para_uo_short": 14,
+                "para_uo_medium": 19,
+                "para_uo_long": 35
+            },
+            "earnings": 17.448383583984395,
+            "sqn": 0.43542400221313493,
+            "calculation_time": "2024-10-22T09:47:32.720928"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 25,
+                "para_sma_long": 69
+            },
+            "earnings": 9.531962469482423,
+            "sqn": 0.2697758870685978,
+            "calculation_time": "2024-10-22T09:47:32.720937"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 4,
+                "para_ema_long": 54
+            },
+            "earnings": 2.2768247314453403,
+            "sqn": 0.10488333766408649,
+            "calculation_time": "2024-10-22T09:47:32.720945"
+        }
+    },
+    "PAH3.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 6,
+                "para_rsi_enter": 10,
+                "para_rsi_exit": 62
+            },
+            "earnings": 49.69808687225343,
+            "sqn": 3.310704293610718,
+            "calculation_time": "2024-10-22T09:47:32.720909"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 18,
+                "para_ma_long": 12,
+                "para_rsi_window": 11,
+                "para_rsi_threshold": 44
+            },
+            "earnings": 79.26426367782595,
+            "sqn": 2.5129140329107993,
+            "calculation_time": "2024-10-22T09:47:32.720919"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -30,
+                "para_ema_short": 3,
+                "para_uo_short": 11,
+                "para_uo_medium": 16,
+                "para_uo_long": 28
+            },
+            "earnings": 9.308055887680057,
+            "sqn": 0.21070454993155396,
+            "calculation_time": "2024-10-22T09:47:32.720930"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 12,
+                "para_sma_long": 53
+            },
+            "earnings": 55.25089326232906,
+            "sqn": 1.690100402164758,
+            "calculation_time": "2024-10-22T09:47:32.720940"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 22,
+                "para_ema_long": 32
+            },
+            "earnings": 94.22391749931329,
+            "sqn": 1.7065170350658558,
+            "calculation_time": "2024-10-22T09:47:32.720947"
+        }
+    },
+    "ADS.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 9,
+                "para_rsi_enter": 39,
+                "para_rsi_exit": 80
+            },
+            "earnings": 119.13237978118897,
+            "sqn": 2.22837683831411,
+            "calculation_time": "2024-10-22T09:47:43.804639"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 3,
+                "para_ma_long": 15,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 60
+            },
+            "earnings": 3.068674369201635,
+            "sqn": 0.059116151193910865,
+            "calculation_time": "2024-10-22T09:47:43.804663"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 29,
+                "para_uo_lower": 18,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 18,
+                "para_uo_long": 43
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:47:43.804676"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 25,
+                "para_sma_long": 66
+            },
+            "earnings": 77.2142701486206,
+            "sqn": 2.058502171926153,
+            "calculation_time": "2024-10-22T09:47:43.804686"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 15,
+                "para_ema_long": 24
+            },
+            "earnings": 85.01301424804679,
+            "sqn": 1.5657665115349313,
+            "calculation_time": "2024-10-22T09:47:43.804696"
+        }
+    },
+    "AIR.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 14,
+                "para_rsi_enter": 44,
+                "para_rsi_exit": 64
+            },
+            "earnings": 82.31995161605839,
+            "sqn": 1.6979326360023514,
+            "calculation_time": "2024-10-22T09:47:43.804651"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 17,
+                "para_ma_long": 14,
+                "para_rsi_window": 9,
+                "para_rsi_threshold": 32
+            },
+            "earnings": 61.81212867217995,
+            "sqn": 1.3745630611048356,
+            "calculation_time": "2024-10-22T09:47:43.804667"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 26,
+                "para_uo_lower": -6,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 18,
+                "para_uo_long": 53
+            },
+            "earnings": 14.261898065185541,
+            "sqn": 2.2873263649419404,
+            "calculation_time": "2024-10-22T09:47:43.804680"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 19,
+                "para_sma_long": 34
+            },
+            "earnings": 22.83572155014037,
+            "sqn": 0.6443955267043519,
+            "calculation_time": "2024-10-22T09:47:43.804689"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 11,
+                "para_ema_long": 20
+            },
+            "earnings": -8.640497193298325,
+            "sqn": -0.27778603301353527,
+            "calculation_time": "2024-10-22T09:47:43.804698"
+        }
+    },
+    "ALV.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 24,
+                "para_rsi_enter": 37,
+                "para_rsi_exit": 76
+            },
+            "earnings": 59.223664715271006,
+            "sqn": 1.1668679839869245,
+            "calculation_time": "2024-10-22T09:47:43.804657"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 10,
+                "para_ma_long": 12,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 40
+            },
+            "earnings": 27.112824854431,
+            "sqn": 0.7584991258919117,
+            "calculation_time": "2024-10-22T09:47:43.804670"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 23,
+                "para_uo_lower": 9,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 71
+            },
+            "earnings": -35.236926707153316,
+            "sqn": -0.9947270184778186,
+            "calculation_time": "2024-10-22T09:47:43.804682"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 28,
+                "para_sma_long": 70
+            },
+            "earnings": 4.3629151223754885,
+            "sqn": 0.19038420744307136,
+            "calculation_time": "2024-10-22T09:47:43.804692"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 6,
+                "para_ema_long": 122
+            },
+            "earnings": -16.769809403686523,
+            "sqn": -0.5991931688073366,
+            "calculation_time": "2024-10-22T09:47:43.804700"
+        }
+    },
+    "BAS.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 10,
+                "para_rsi_exit": 89
+            },
+            "earnings": 92.13476609184268,
+            "sqn": 8.64692958708956,
+            "calculation_time": "2024-10-22T09:47:43.804660"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 6,
+                "para_ma_long": 16,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 73
+            },
+            "earnings": 11.9662876422119,
+            "sqn": 0.6179553459331377,
+            "calculation_time": "2024-10-22T09:47:43.804674"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": 11,
+                "para_ema_short": 3,
+                "para_uo_short": 14,
+                "para_uo_medium": 18,
+                "para_uo_long": 62
+            },
+            "earnings": -16.082145617065436,
+            "sqn": -4.785769447738419,
+            "calculation_time": "2024-10-22T09:47:43.804684"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 18,
+                "para_sma_long": 39
+            },
+            "earnings": 65.55853384422299,
+            "sqn": 1.8523869833254343,
+            "calculation_time": "2024-10-22T09:47:43.804694"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 34,
+                "para_ema_long": 124
+            },
+            "earnings": 50.81411531097412,
+            "sqn": 6.308950621003873,
+            "calculation_time": "2024-10-22T09:47:43.804702"
+        }
+    },
+    "FME.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 48,
+                "para_rsi_exit": 77
+            },
+            "earnings": 89.38385694900516,
+            "sqn": 1.8020967313448586,
+            "calculation_time": "2024-10-22T09:49:12.311292"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 10,
+                "para_ma_long": 22,
+                "para_rsi_window": 20,
+                "para_rsi_threshold": 53
+            },
+            "earnings": 61.147301303367605,
+            "sqn": 1.7883817986689208,
+            "calculation_time": "2024-10-22T09:49:12.311316"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": -20,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 15,
+                "para_uo_long": 35
+            },
+            "earnings": -18.18644496009826,
+            "sqn": -0.5519702934195082,
+            "calculation_time": "2024-10-22T09:49:12.311328"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 14,
+                "para_sma_long": 53
+            },
+            "earnings": 15.35821027755741,
+            "sqn": 0.6229806873149406,
+            "calculation_time": "2024-10-22T09:49:12.311336"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 78
+            },
+            "earnings": 37.94893235221867,
+            "sqn": 1.722937491122464,
+            "calculation_time": "2024-10-22T09:49:12.311344"
+        }
+    },
+    "HEI.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 10,
+                "para_rsi_enter": 47,
+                "para_rsi_exit": 88
+            },
+            "earnings": 95.90914911605833,
+            "sqn": 2.033342598839384,
+            "calculation_time": "2024-10-22T09:49:12.311309"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 4,
+                "para_ma_long": 45,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 5.726952654724156,
+            "sqn": 0.10920989755002436,
+            "calculation_time": "2024-10-22T09:49:12.311321"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 23,
+                "para_uo_lower": -27,
+                "para_ema_short": 3,
+                "para_uo_short": 8,
+                "para_uo_medium": 27,
+                "para_uo_long": 34
+            },
+            "earnings": 91.24453485969542,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:49:12.311332"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 14,
+                "para_sma_long": 80
+            },
+            "earnings": 19.390011507720956,
+            "sqn": 0.5343192229141591,
+            "calculation_time": "2024-10-22T09:49:12.311340"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 31,
+                "para_ema_long": 50
+            },
+            "earnings": 25.99978634735111,
+            "sqn": 0.8131915663151513,
+            "calculation_time": "2024-10-22T09:49:12.311348"
+        }
+    },
+    "HFG.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 24,
+                "para_rsi_exit": 57
+            },
+            "earnings": 315.94478547210684,
+            "sqn": 0.9335655598578336,
+            "calculation_time": "2024-10-22T09:48:25.741374"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 37,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 18.32659654007912,
+            "sqn": 0.3081433800910633,
+            "calculation_time": "2024-10-22T09:48:25.741390"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 33,
+                "para_uo_lower": 22,
+                "para_ema_short": 5,
+                "para_uo_short": 7,
+                "para_uo_medium": 17,
+                "para_uo_long": 42
+            },
+            "earnings": 31.7528886593628,
+            "sqn": 0.43397933280574136,
+            "calculation_time": "2024-10-22T09:48:25.741400"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 10,
+                "para_sma_long": 85
+            },
+            "earnings": 3.505569054326988,
+            "sqn": 0.012984308776081028,
+            "calculation_time": "2024-10-22T09:48:25.741412"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 5,
+                "para_ema_long": 14
+            },
+            "earnings": -2.099038851490077,
+            "sqn": -0.01492659787248765,
+            "calculation_time": "2024-10-22T09:48:25.741422"
+        }
+    },
+    "DHL.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 15,
+                "para_rsi_enter": 27,
+                "para_rsi_exit": 66
+            },
+            "earnings": 20.447495500106854,
+            "sqn": 5.28385097024976,
+            "calculation_time": "2024-10-22T09:41:43.793224"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 13,
+                "para_ma_long": 14,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 79
+            },
+            "earnings": 31.043259165802013,
+            "sqn": 10.02737039108651,
+            "calculation_time": "2024-10-22T09:41:43.793250"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 26,
+                "para_uo_lower": 12,
+                "para_ema_short": 6,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 28
+            },
+            "earnings": 10.678067990112304,
+            "sqn": 0.6135012103616472,
+            "calculation_time": "2024-10-22T09:41:43.793259"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 24,
+                "para_sma_long": 99
+            },
+            "earnings": 30.744637870712303,
+            "sqn": 2.950281530119624,
+            "calculation_time": "2024-10-22T09:41:43.793272"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 44,
+                "para_ema_long": 65
+            },
+            "earnings": 21.171793732223502,
+            "sqn": 2.0441720020077687,
+            "calculation_time": "2024-10-22T09:41:43.793280"
+        }
+    },
+    "DTE.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 43,
+                "para_rsi_exit": 88
+            },
+            "earnings": 81.08121642860417,
+            "sqn": 3.4471096936936063,
+            "calculation_time": "2024-10-22T09:41:43.793237"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 15,
+                "para_rsi_window": 6,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 15.973018604812605,
+            "sqn": 0.4351598716423205,
+            "calculation_time": "2024-10-22T09:41:43.793253"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -23,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 17,
+                "para_uo_long": 33
+            },
+            "earnings": 26.197995075073248,
+            "sqn": 1.0347776120147365,
+            "calculation_time": "2024-10-22T09:41:43.793262"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 16,
+                "para_sma_long": 49
+            },
+            "earnings": -16.587431246948253,
+            "sqn": -0.36809003673066676,
+            "calculation_time": "2024-10-22T09:41:43.793273"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 32,
+                "para_ema_long": 101
+            },
+            "earnings": 0.5639549288558737,
+            "sqn": 0.013189637807762111,
+            "calculation_time": "2024-10-22T09:41:43.793282"
+        }
+    },
+    "DWNI.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 6,
+                "para_rsi_enter": 14,
+                "para_rsi_exit": 81
+            },
+            "earnings": 95.43885086887364,
+            "sqn": 1.6613084048072126,
+            "calculation_time": "2024-10-22T09:41:43.793242"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 11,
+                "para_ma_long": 25,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 44
+            },
+            "earnings": 60.95861614253987,
+            "sqn": 1.1802415363887897,
+            "calculation_time": "2024-10-22T09:41:43.793255"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 21,
+                "para_uo_lower": -13,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 39,
+                "para_uo_long": 47
+            },
+            "earnings": 29.81445828945161,
+            "sqn": 0.7312023634381328,
+            "calculation_time": "2024-10-22T09:41:43.793265"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 25,
+                "para_sma_long": 72
+            },
+            "earnings": 71.40102472263334,
+            "sqn": 0.8209309269026535,
+            "calculation_time": "2024-10-22T09:41:43.793276"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 49,
+                "para_ema_long": 80
+            },
+            "earnings": 23.83790270572663,
+            "sqn": 0.6050438695657641,
+            "calculation_time": "2024-10-22T09:41:43.793284"
+        }
+    },
+    "EOAN.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 8,
+                "para_rsi_enter": 32,
+                "para_rsi_exit": 86
+            },
+            "earnings": 90.46049125480656,
+            "sqn": 4.1568588679761325,
+            "calculation_time": "2024-10-22T09:41:43.793247"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 21,
+                "para_rsi_window": 24,
+                "para_rsi_threshold": 44
+            },
+            "earnings": 15.069757128791808,
+            "sqn": 0.4501681599432962,
+            "calculation_time": "2024-10-22T09:41:43.793257"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 29,
+                "para_uo_lower": 18,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 16,
+                "para_uo_long": 37
+            },
+            "earnings": -5.519613423004139,
+            "sqn": -0.4311774576796524,
+            "calculation_time": "2024-10-22T09:41:43.793269"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 21,
+                "para_sma_long": 93
+            },
+            "earnings": 55.53936139764786,
+            "sqn": 3.954565283050204,
+            "calculation_time": "2024-10-22T09:41:43.793278"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 18,
+                "para_ema_long": 36
+            },
+            "earnings": 26.638510261058833,
+            "sqn": 0.6407860004399927,
+            "calculation_time": "2024-10-22T09:41:43.793286"
+        }
+    },
+    "RWE.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 8,
+                "para_rsi_enter": 12,
+                "para_rsi_exit": 77
+            },
+            "earnings": 18.388684053726173,
+            "sqn": 2.858694955732342,
+            "calculation_time": "2024-10-22T09:33:28.263884"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 16,
+                "para_ma_long": 48,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 62
+            },
+            "earnings": 30.063774364166257,
+            "sqn": 1.717508202380043,
+            "calculation_time": "2024-10-22T09:33:28.263905"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": 6,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 17,
+                "para_uo_long": 28
+            },
+            "earnings": 26.78830501571654,
+            "sqn": 1.1828665634248348,
+            "calculation_time": "2024-10-22T09:33:28.263918"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 20,
+                "para_sma_long": 89
+            },
+            "earnings": 84.46878108589168,
+            "sqn": 4.004834788953073,
+            "calculation_time": "2024-10-22T09:33:28.263925"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 36,
+                "para_ema_long": 52
+            },
+            "earnings": 63.64286684890749,
+            "sqn": 3.73463608621108,
+            "calculation_time": "2024-10-22T09:33:28.263933"
+        }
+    },
+    "LHA.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 16,
+                "para_rsi_exit": 64
+            },
+            "earnings": 2.1082421663570496,
+            "sqn": 0.08557082037537002,
+            "calculation_time": "2024-10-22T09:33:28.263896"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 8,
+                "para_ma_long": 10,
+                "para_rsi_window": 29,
+                "para_rsi_threshold": 58
+            },
+            "earnings": 94.10334370803838,
+            "sqn": 1.8418510585177745,
+            "calculation_time": "2024-10-22T09:33:28.263908"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 37,
+                "para_uo_lower": 2,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 17,
+                "para_uo_long": 28
+            },
+            "earnings": 0.0,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:33:28.263921"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 6,
+                "para_sma_long": 98
+            },
+            "earnings": -6.489551527261737,
+            "sqn": -0.24397228916440808,
+            "calculation_time": "2024-10-22T09:33:28.263928"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 89
+            },
+            "earnings": -18.52368037968632,
+            "sqn": -0.5619372953699274,
+            "calculation_time": "2024-10-22T09:33:28.263935"
+        }
+    },
+    "ECV.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 17,
+                "para_rsi_exit": 75
+            },
+            "earnings": 2099.195401891613,
+            "sqn": 1.6246505831129523,
+            "calculation_time": "2024-10-22T09:33:28.263901"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 12,
+                "para_ma_long": 18,
+                "para_rsi_window": 21,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 50.425351706981616,
+            "sqn": 1.1751642411548835,
+            "calculation_time": "2024-10-22T09:33:28.263910"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 22,
+                "para_uo_lower": 11,
+                "para_ema_short": 5,
+                "para_uo_short": 10,
+                "para_uo_medium": 14,
+                "para_uo_long": 34
+            },
+            "earnings": -9.096325344753295,
+            "sqn": -0.29013754761217253,
+            "calculation_time": "2024-10-22T09:33:28.263923"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 9,
+                "para_sma_long": 99
+            },
+            "earnings": 482.5455317857169,
+            "sqn": 1.0447945500969946,
+            "calculation_time": "2024-10-22T09:33:28.263931"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 42,
+                "para_ema_long": 57
+            },
+            "earnings": 669.8293746989632,
+            "sqn": 1.2293448705177314,
+            "calculation_time": "2024-10-22T09:33:28.263936"
+        }
+    },
+    "CON.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 49,
+                "para_rsi_exit": 68
+            },
+            "earnings": 40.38327056091304,
+            "sqn": 0.8860830447456222,
+            "calculation_time": "2024-10-22T09:49:48.005069"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 17,
+                "para_ma_long": 13,
+                "para_rsi_window": 14,
+                "para_rsi_threshold": 45
+            },
+            "earnings": 0.7527136286925634,
+            "sqn": 0.019002606535863994,
+            "calculation_time": "2024-10-22T09:49:48.005094"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -5,
+                "para_ema_short": 3,
+                "para_uo_short": 18,
+                "para_uo_medium": 25,
+                "para_uo_long": 37
+            },
+            "earnings": -23.738177140350317,
+            "sqn": -0.8400810992092674,
+            "calculation_time": "2024-10-22T09:49:48.005103"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 25,
+                "para_sma_long": 69
+            },
+            "earnings": 13.031103786010753,
+            "sqn": 0.9070798014398469,
+            "calculation_time": "2024-10-22T09:49:48.005113"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 43,
+                "para_ema_long": 55
+            },
+            "earnings": 32.51479224990846,
+            "sqn": 1.4118334608577208,
+            "calculation_time": "2024-10-22T09:49:48.005121"
+        }
+    },
+    "1COV.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 24,
+                "para_rsi_enter": 43,
+                "para_rsi_exit": 70
+            },
+            "earnings": 107.32199905273438,
+            "sqn": 3.195609815656529,
+            "calculation_time": "2024-10-22T09:49:48.005081"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 19,
+                "para_ma_long": 18,
+                "para_rsi_window": 9,
+                "para_rsi_threshold": 20
+            },
+            "earnings": -9.989185672607437,
+            "sqn": -0.2273622315498118,
+            "calculation_time": "2024-10-22T09:49:48.005097"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 20,
+                "para_uo_lower": -4,
+                "para_ema_short": 10,
+                "para_uo_short": 7,
+                "para_uo_medium": 29,
+                "para_uo_long": 42
+            },
+            "earnings": -35.13798181274414,
+            "sqn": -0.643675096570851,
+            "calculation_time": "2024-10-22T09:49:48.005105"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 19,
+                "para_sma_long": 33
+            },
+            "earnings": 51.50666255081177,
+            "sqn": 1.251543215884606,
+            "calculation_time": "2024-10-22T09:49:48.005115"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 3,
+                "para_ema_long": 41
+            },
+            "earnings": 34.47987053474429,
+            "sqn": 0.8987749783406347,
+            "calculation_time": "2024-10-22T09:49:48.005123"
+        }
+    },
+    "DBK.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 16,
+                "para_rsi_enter": 42,
+                "para_rsi_exit": 83
+            },
+            "earnings": 93.56670682077404,
+            "sqn": 2.32299569635078,
+            "calculation_time": "2024-10-22T09:49:48.005087"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 7,
+                "para_ma_long": 10,
+                "para_rsi_window": 6,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 108.12535409994122,
+            "sqn": 1.0878475689144982,
+            "calculation_time": "2024-10-22T09:49:48.005099"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 35,
+                "para_uo_lower": 5,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 24,
+                "para_uo_long": 30
+            },
+            "earnings": 1.6273095578956418,
+            "sqn": 0.18751962428479774,
+            "calculation_time": "2024-10-22T09:49:48.005107"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 22,
+                "para_sma_long": 78
+            },
+            "earnings": -2.255797397365568,
+            "sqn": -0.030242389064016353,
+            "calculation_time": "2024-10-22T09:49:48.005117"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 9,
+                "para_ema_long": 20
+            },
+            "earnings": 25.63301063156112,
+            "sqn": 0.3786734748712895,
+            "calculation_time": "2024-10-22T09:49:48.005126"
+        }
+    },
+    "DB1.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 45,
+                "para_rsi_exit": 71
+            },
+            "earnings": 76.65366205474835,
+            "sqn": 2.3777316591373996,
+            "calculation_time": "2024-10-22T09:49:48.005090"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 2,
+                "para_ma_long": 27,
+                "para_rsi_window": 14,
+                "para_rsi_threshold": 59
+            },
+            "earnings": -3.508514680175776,
+            "sqn": -0.17129884717968133,
+            "calculation_time": "2024-10-22T09:49:48.005101"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 33,
+                "para_uo_lower": -2,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 17,
+                "para_uo_long": 36
+            },
+            "earnings": 4.216798535156249,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:49:48.005110"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 21,
+                "para_sma_long": 58
+            },
+            "earnings": 32.33312268859863,
+            "sqn": 1.1861230370878566,
+            "calculation_time": "2024-10-22T09:49:48.005119"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 7,
+                "para_ema_long": 54
+            },
+            "earnings": 35.00416897430416,
+            "sqn": 1.2214048056016962,
+            "calculation_time": "2024-10-22T09:49:48.005129"
+        }
+    },
+    "HLE.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 7,
+                "para_rsi_enter": 24,
+                "para_rsi_exit": 84
+            },
+            "earnings": 25.231503688049266,
+            "sqn": 1.0692823130075884,
+            "calculation_time": "2024-10-22T09:48:25.741363"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 16,
+                "para_ma_long": 18,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 8.025332238311712,
+            "sqn": 0.26343317806258093,
+            "calculation_time": "2024-10-22T09:48:25.741386"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 62,
+                "para_uo_lower": 14,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 14,
+                "para_uo_long": 28
+            },
+            "earnings": 16.159504058837886,
+            "sqn": NaN,
+            "calculation_time": "2024-10-22T09:48:25.741397"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 13,
+                "para_sma_long": 32
+            },
+            "earnings": 87.89024608520506,
+            "sqn": 1.6478906812703242,
+            "calculation_time": "2024-10-22T09:48:25.741410"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 10,
+                "para_ema_long": 45
+            },
+            "earnings": 30.049261556243874,
+            "sqn": 0.8561679372835266,
+            "calculation_time": "2024-10-22T09:48:25.741420"
+        }
+    },
+    "HAG.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 12,
+                "para_rsi_enter": 27,
+                "para_rsi_exit": 84
+            },
+            "earnings": 135.38145546707153,
+            "sqn": 1.5884572306901952,
+            "calculation_time": "2024-10-22T09:48:25.741379"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 18,
+                "para_ma_long": 49,
+                "para_rsi_window": 5,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 87.83580175567626,
+            "sqn": 1.3869652955527465,
+            "calculation_time": "2024-10-22T09:48:25.741393"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 30,
+                "para_uo_lower": 5,
+                "para_ema_short": 3,
+                "para_uo_short": 7,
+                "para_uo_medium": 30,
+                "para_uo_long": 38
+            },
+            "earnings": 38.553882888793964,
+            "sqn": 2.410666612129896,
+            "calculation_time": "2024-10-22T09:48:25.741405"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 28,
+                "para_sma_long": 73
+            },
+            "earnings": -17.390578306694117,
+            "sqn": -0.33494297164683906,
+            "calculation_time": "2024-10-22T09:48:25.741415"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 20,
+                "para_ema_long": 132
+            },
+            "earnings": 15.782344830207876,
+            "sqn": 0.47830988606391156,
+            "calculation_time": "2024-10-22T09:48:25.741424"
+        }
+    },
+    "HOT.F": {
+        "RSIStrategy": {
+            "parameter": {
+                "para_rsi_window": 5,
+                "para_rsi_enter": 28,
+                "para_rsi_exit": 80
+            },
+            "earnings": 51.03828773139952,
+            "sqn": 1.4247862273831466,
+            "calculation_time": "2024-10-22T09:48:25.741382"
+        },
+        "MovingAverageRSIStrategy": {
+            "parameter": {
+                "para_ma_short": 13,
+                "para_ma_long": 10,
+                "para_rsi_window": 17,
+                "para_rsi_threshold": 20
+            },
+            "earnings": 0.8762953681945691,
+            "sqn": 0.029096029398036974,
+            "calculation_time": "2024-10-22T09:48:25.741395"
+        },
+        "UltimateEmaCrossCloseStrategy": {
+            "parameter": {
+                "para_uo_upper": 26,
+                "para_uo_lower": -1,
+                "para_ema_short": 6,
+                "para_uo_short": 7,
+                "para_uo_medium": 15,
+                "para_uo_long": 31
+            },
+            "earnings": 22.95913718765256,
+            "sqn": 0.3418711366671132,
+            "calculation_time": "2024-10-22T09:48:25.741407"
+        },
+        "SmaCrossSmaStrategy": {
+            "parameter": {
+                "para_sma_short": 24,
+                "para_sma_long": 36
+            },
+            "earnings": 99.61878235137945,
+            "sqn": 1.7114741401021192,
+            "calculation_time": "2024-10-22T09:48:25.741417"
+        },
+        "EmaCrossEmaStrategy": {
+            "parameter": {
+                "para_ema_short": 2,
+                "para_ema_long": 34
+            },
+            "earnings": 42.742693705139075,
+            "sqn": 1.0703678479576129,
+            "calculation_time": "2024-10-22T09:48:25.741426"
+        }
+    }
+}

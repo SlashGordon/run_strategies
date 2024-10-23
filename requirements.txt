@@ -1,0 +1,3 @@
+pystockfilter
+python-telegram-bot
+prettytable==3.11.0
